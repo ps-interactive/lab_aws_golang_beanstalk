@@ -6,6 +6,6 @@ import (
 
 // RootHandler returns a hello world message
 func RootHandler(res http.ResponseWriter, req *http.Request) {
-	message := "Hello from Code Pipeline"
+	message := "Hello from PS Labs"
 	res.Write([]byte(message))
 }

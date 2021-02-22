@@ -1,4 +1,3 @@
-// handlers_test.go
 package handlers
 
 import (
@@ -23,7 +22,7 @@ func TestRootHandler(t *testing.T) {
             status, http.StatusOK)
     }
 
-    expected := "Hello from Code Pipeline"
+    expected := "Hello from PS Labs"
     if rr.Body.String() != expected {
         t.Errorf("handler returned unexpected body: got %v want %v",
             rr.Body.String(), expected)
