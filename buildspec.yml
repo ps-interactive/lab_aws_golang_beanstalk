@@ -9,3 +9,9 @@ phases:
     commands:
       - echo Running tests
       - make test
+
+artifacts:
+  files:
+    - go.mod
+    - application.go
+    - handlers/*
