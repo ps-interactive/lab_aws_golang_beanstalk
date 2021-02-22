@@ -9,9 +9,8 @@ phases:
     commands:
       - echo Running tests
       - make test
+      - zip goartifacts.zip go.mod application.go handlers/*
 
 artifacts:
   files:
-    - go.mod
-    - application.go
-    - handlers/*
+    - goartifacts.zip
