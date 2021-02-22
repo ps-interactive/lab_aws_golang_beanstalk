@@ -5,6 +5,6 @@ GORUN=${GOCMD} run
 all: test
 
 start: 
-				${GORUN} main.go
+				${GORUN} application.go
 test:
 				$(GOTEST) -v ./handlers/*
