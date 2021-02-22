@@ -23,7 +23,7 @@ func TestRootHandler(t *testing.T) {
             status, http.StatusOK)
     }
 
-    expected := "Hello from Web API"
+    expected := "Hello from Code Pipeline"
     if rr.Body.String() != expected {
         t.Errorf("handler returned unexpected body: got %v want %v",
             rr.Body.String(), expected)
